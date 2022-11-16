@@ -3,6 +3,3 @@ class User:
         self.name = name
         self.email = email
         self.password = password
-    
-    #def change_password(self, new_password):
-    #    self.password = new_password

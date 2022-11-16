@@ -6,12 +6,21 @@ The repository for the To Do List API, based on the Federal University of São P
 This project is complementary to the [OOP repository](https://github.com/andresavalerio/oop).
 
 ## Use Cases
-- [x] sign up
+- [ ] sign up
+  - [ ] happy path
+  - [ ] prevent duplicate user
+  - [ ] hash password
+  - [ ] verify password strength
+    - [ ] should contain uppercase letter
+    - [ ] should contain lowercase letter
+    - [ ] should contain number
+    - [ ] should contain special character
+    - [ ] should contain at least six characters
+    - [ ] should contain at most fifteen characters
 - [ ] sign in
 - [ ] create list
-- [ ] create todo list
-- [ ] create item in todo list
-- [ ] show todo list
+- [ ] create item in list
+- [ ] show list
 - [ ] change item description
 - [ ] change item priority
 - [ ] remove item from todo list
